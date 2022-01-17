@@ -1,0 +1,322 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\Ballot.sol": {
+      "lastModificationDate": 1657677140303,
+      "contentHash": "44f786dd7c7ab2a778ec0c27df70449a",
+      "sourceName": "contracts/Ballot.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Ballot"
+      ]
+    },
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\Election.sol": {
+      "lastModificationDate": 1658029992531,
+      "contentHash": "83bec7c6a851ebe4f4a3e017b5690bd4",
+      "sourceName": "contracts/Election.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Election"
+      ]
+    },
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\MainContract.sol": {
+      "lastModificationDate": 1658029608640,
+      "contentHash": "51233176085c1c8beab8a76607b21ead",
+      "sourceName": "contracts/MainContract.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Election.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MainContract"
+      ]
+    },
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\EtherWallet.sol": {
+      "lastModificationDate": 1657679394716,
+      "contentHash": "7b39d35109ca49a3fdb8796a14be46c8",
+      "sourceName": "contracts/EtherWallet.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "EtherWallet"
+      ]
+    },
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\Owner.sol": {
+      "lastModificationDate": 1657676970495,
+      "contentHash": "6c0eb4cadfae6f52d2e86171d3cfb68b",
+      "sourceName": "contracts/Owner.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Owner"
+      ]
+    },
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\Register__.sol": {
+      "lastModificationDate": 1657673806421,
+      "contentHash": "453708fca90a83d42b925e6ae7cdba4e",
+      "sourceName": "contracts/Register__.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Register__"
+      ]
+    },
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\Register.sol": {
+      "lastModificationDate": 1657673745895,
+      "contentHash": "7df45b04c65a8f95f9d281ce8c10c2c0",
+      "sourceName": "contracts/Register.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Register"
+      ]
+    },
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\Test.sol": {
+      "lastModificationDate": 1657677423933,
+      "contentHash": "980fd1127a44702bbd050bbb492c7619",
+      "sourceName": "contracts/Test.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Test"
+      ]
+    },
+    "E:\\4.blockchain\\hardhat\\work\\connect_register_wallet_next\\hardhat-reploy\\contracts\\Token.sol": {
+      "lastModificationDate": 1657614223676,
+      "contentHash": "674d00bab6cf1aed1c0f81fbfa929a81",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.7.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Test",
+  "sourceName": "contracts/Test.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "becomeRichest",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "mostSent",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "richest",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346001819055506102ec8061005a6000396000f3fe60806040526004361061003f5760003560e01c806302e26c38146100445780633ccfd60b146100855780636886bf1c1461009c57806369934ee7146100c7575b600080fd5b34801561005057600080fd5b506100596100e7565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561009157600080fd5b5061009a61010b565b005b3480156100a857600080fd5b506100b16101de565b6040518082815260200191505060405180910390f35b6100cf6101e4565b60405180821515815260200191505060405180910390f35b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490506000600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156101da573d6000803e3d6000fd5b5050565b60015481565b60006001543411156102ae5734600260008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555034600181905550600190506102b3565b600090505b9056fea2646970667358221220a98cf594e2379fb24b06a74fdb118872058aae0dbb6945b9892657940e1067f864736f6c63430007040033",
+  "deployedBytecode": "0x60806040526004361061003f5760003560e01c806302e26c38146100445780633ccfd60b146100855780636886bf1c1461009c57806369934ee7146100c7575b600080fd5b34801561005057600080fd5b506100596100e7565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561009157600080fd5b5061009a61010b565b005b3480156100a857600080fd5b506100b16101de565b6040518082815260200191505060405180910390f35b6100cf6101e4565b60405180821515815260200191505060405180910390f35b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490506000600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f193505050501580156101da573d6000803e3d6000fd5b5050565b60015481565b60006001543411156102ae5734600260008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555034600181905550600190506102b3565b600090505b9056fea2646970667358221220a98cf594e2379fb24b06a74fdb118872058aae0dbb6945b9892657940e1067f864736f6c63430007040033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
