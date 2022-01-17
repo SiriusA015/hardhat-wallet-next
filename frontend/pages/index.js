@@ -1,11 +1,14 @@
+import { useWeb3React } from "@web3-react/core"
 import { useEffect, useState } from "react"
 import { injected } from "../components/wallet/connectors"
+import { ethers } from "ethers";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Home() {
+  const { active, account, library, connector, activate, deactivate } = useWeb3React()
   const [registerCount, setRegCount] = useState("0")
   const [_register, setRegister] = useState()
-  const [contractAddress, setAddress] = useState("0x6d8a922295858b3A4390C5c66cf6cC2e38319650")
+  const [contractAddress, setAddress] = useState("0x546e922295858b4E7586cC2e383436854")
 
   return (
   
@@ -14,7 +17,7 @@ export default function Home() {
           <button className="py-2 mt-20 mb-4 text-lg font-bold text-white rounded-lg w-56 bg-blue-500 hover:bg-blue-800">Connect to MetaMask</button>
           <button className="py-2 mt-20 mb-4 text-lg font-bold text-white rounded-lg w-56 bg-blue-500 hover:bg-blue-800">Disconnect</button>
       </div>
-    
+    we
       {active ? <span>Connected with </span> : <span>Not connected</span>}
      
       <button className="py-2 mt-10 mb-4 text-lg font-bold text-white rounded-lg w-40 bg-green-500 hover:bg-blue-800">Register Wallet</button>
