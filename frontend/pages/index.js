@@ -8,7 +8,7 @@ export default function Home() {
   const { active, account, library, connector, activate, deactivate } = useWeb3React()
   const [registerCount, setRegCount] = useState("0")
   const [_register, setRegister] = useState()
-  const [contractAddress, setAddress] = useState("0x6d8a922295858b3A4390C5c66cf6cC2e38319650")
+  const [contractAddress, setAddress] = useState("0x3e67438347295858b3A4390C5c66cf6cC24535d745")
 
   const _initialize = () => {
     
