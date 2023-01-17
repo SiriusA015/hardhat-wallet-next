@@ -8,6 +8,7 @@ export default function Home() {
   const { active, account, library, connector, activate, deactivate } = useWeb3React()
   const [registerCount, setRegCount] = useState("0")
   const [_register, setRegister] = useState()
+
   const [contractAddress, setAddress] = useState("0x3e67438347295858b3A4390C5c66cf6cC24535d745")
 
   const _initialize = () => {
@@ -82,7 +83,7 @@ export default function Home() {
           <button onClick={connect} className="py-2 mt-20 mb-4 text-lg font-bold text-white rounded-lg w-56 bg-blue-500 hover:bg-blue-800">Connect to MetaMask</button>
           <button onClick={disconnect} className="py-2 mt-20 mb-4 text-lg font-bold text-white rounded-lg w-56 bg-blue-500 hover:bg-blue-800">Disconnect</button>
       </div>
-    
+
       {active ? <span>Connected with <b>{account}</b></span> : <span>Not connected</span>}
      
       <button onClick={register} className="py-2 mt-10 mb-4 text-lg font-bold text-white rounded-lg w-40 bg-green-500 hover:bg-blue-800">Register Wallet</button>
